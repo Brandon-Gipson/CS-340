@@ -1,0 +1,26 @@
+Player
+- Name
+- Age
+- Location
+- Main Character
+
+Role
+- rDPS
+- mDPS
+- Healer
+- Tank
+
+Character
+- Name
+- Level
+- Class
+- Race
+- Foreign Key to Player
+
+Character Roles
+- Foreign Key to Character
+- Foreign Key to Roles
+
+Alternate Character List
+- Foreign Key to Player 
+- Foreign Key to Character
